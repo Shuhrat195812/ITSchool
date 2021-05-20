@@ -1,2 +1,2 @@
 # ITSchool
-Bu 
+Bu loyihga birt narsa 
