@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT School Code Editor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#">IT School</a></div>
+                <ul class="links">
+                    <li><a href="#">Bosh sahifa</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Robototexnika</a></li>
+                    <li><a href="code-editor.html">Code Editor</a></li>
+                    <li><a href="#">Biz bilan aloqa</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <div class="editor">
+        <div class="label">
+            <label for="html-code"><span>HTML</span></label>
+            <label for="css-code"><span>CSS</span></label>
+            <label for="js-code"><span>JAVASCRIPT</span></label>
+        </div>
+        <div class="textarea">
+            <textarea name="" id="html-code"></textarea>
+            <textarea name="" id="css-code"></textarea>
+            <textarea name="" id="js-code"></textarea>
+        </div>
+        <iframe id="output"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- как добавить проект в github  -->
