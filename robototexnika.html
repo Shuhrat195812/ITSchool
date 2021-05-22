@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="aos/dist/aos.css">
 </head>
+
 <body>
+    <!--LOADER-->
+    <div class="loading">
+        <div class="main">
+            <div class="dot">
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!--LOADER END-->
     <div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
@@ -20,7 +32,7 @@
                 <div class="logo"><a href="index.html">IT Maktab</a></div>
                 <ul class="links">
                     <li><a href="index.html">Bosh sahifa</a></li>
-                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="css.html">HTML & CSS</a></li>
                     <li><a href="javascript.html">JavaScript</a></li>
                     <li><a href="#">Robototexnika</a></li>
                     <li><a href="code-editor.html">Code Editor</a></li>
@@ -108,8 +120,15 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="js/internet.js"></script>
     <script src="js/script.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </body>
+
 </html>
