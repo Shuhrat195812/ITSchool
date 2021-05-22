@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT School Code Editor</title>
+    <link rel="shortcut icon" href="images/Слайд1__1_-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="aos/dist/aos.css">
+</head>
+
+<body>
+    <a href="#" class="up">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!--LOADER-->
+    <div class="loading">
+        <div class="main">
+            <div class="dot">
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!--LOADER END-->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html">IT Maktab</a></div>
+                <ul class="links">
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="css.html">HTML & CSS</a></li>
+                    <li><a href="javascript.html">JavaScript</a></li>
+                    <li><a href="robototexnika.html">Robototexnika</a></li>
+                    <li><a href="#">Code Editor</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <div class="editor">
+        <div class="label">
+            <label for="html-code"><span>HTML</span></label>
+            <label for="css-code"><span>CSS</span></label>
+            <label for="js-code"><span>JAVASCRIPT</span><a href="https://sites.google.com/new" target="_blank">Ko`dsiz yasash</a></label>
+        </div>
+        <div class="textarea">
+            <textarea name="" id="html-code"></textarea>
+            <textarea name="" id="css-code"></textarea>
+            <textarea name="" id="js-code"></textarea>
+        </div>
+        <iframe id="output"></iframe>
+    </div>
+    <div class="wifi">
+        <div class="toast">
+            <div class="content">
+                <div class="icon"><i class="uil uil-wifi"></i></div>
+                <div class="details">
+                    <span>You're online now</span>
+                    <p>Internet is connected.</p>
+                </div>
+            </div>
+            <div class="close-icon"><i class="uil uil-times"></i></div>
+        </div>
+    </div>
+    <footer style="bottom: -75px;">
+        <div class="main-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>CodinNepal is a YouTube channel where you can learn web designing, web development, ui/ux
+                        designing, html css tutorial, hover animation and effects, javascript and jquery tutorial and
+                        related so on.</p>
+                    <div class="social">
+                        <a href="https://facebook.com/coding.np" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#" target="_blank"><span class="fab fa-twitter"></span></a>
+                        <a href="https://t.me/ITSchooladminbot" target="_blank"><span class="fab fa-telegram-plane"></span></a>
+                        <a href="https://instagram.com/coding.np" target="_blank"><span class="fab fa-instagram"></span></a>
+                        <a href="https://youtube.com/c/codingnepal" target="_blank"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Birendranagar, Surkhet</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+089-765432100</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">abc@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Name *</div>
+                            <input type="text" required>
+                        </div>
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/internet.js"></script>
+    <script src="js/script.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+</body>
+
+</html>
